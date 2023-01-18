@@ -1,6 +1,6 @@
 {
   "name": "math-slide",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AungChanMinMarch/math-slide/issues"
   },
-  "homepage": "https://github.com/AungChanMinMarch/math-slide#readme"
+  "homepage": "https://github.com/AungChanMinMarch/math-slide#readme",
+  "bin": {
+    "math-slide": "bin/cli.js"
+  }
 }
